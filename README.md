@@ -237,15 +237,15 @@ GET https://restcountries.com/v3.1/all?fields=name,capital,flags,region,cca2
 ## 👤 Autor
 
 **David** — Estudiante de Tecnología en Sistemas  
-Universidad del Putumayo · Diploma Software 4.0
+Universidad del Putumayo ·
 
-[![GitHub](https://img.shields.io/badge/GitHub-Jhoan-181717?style=flat-square&logo=github)](https://github.com/Jhoan)
+[![GitHub](https://img.shields.io/badge/GitHub-Jhoan-181717?style=flat-square&logo=github)](https://github.com/JDav117)
 
 ---
 
 <div align="center">
 
 Desarrollado como parte del **Taller de Competencias Frontend**  
-Universidad del Putumayo · 2025
+Universidad del Putumayo · 2026
 
 </div>
