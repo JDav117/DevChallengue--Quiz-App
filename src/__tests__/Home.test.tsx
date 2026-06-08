@@ -46,12 +46,13 @@ describe('Home', () => {
     expect(screen.getByText(/15 segundos por pregunta/i)).toBeInTheDocument()
   })
 
-  it('no muestra el panel de racha cuando highScore es 0', () => {
+  it('no muestra el panel de racha máxima cuando highScore es 0', () => {
     render(
       <MemoryRouter>
         <Home />
       </MemoryRouter>,
     )
-    expect(screen.queryByText(/Mejor racha/i)).not.toBeInTheDocument()
+    // Busca el emoji del trofeo que solo aparece en el panel de high score
+    expect(screen.queryByText('🏆 Mejor racha')).not.toBeInTheDocument()
   })
 })
