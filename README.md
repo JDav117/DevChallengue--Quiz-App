@@ -15,7 +15,7 @@ Pon a prueba tu conocimiento geográfico con 10 preguntas aleatorias, contrarrel
 
 [![Vitest](https://img.shields.io/badge/Vitest-2.0-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)](https://vitest.dev/)
 [![ESLint](https://img.shields.io/badge/ESLint-8.57-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/)
-[![Netlify Status](https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/)
+[![Netlify Status](https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://quiz-app-capital-of-the-world.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 </div>
@@ -42,7 +42,7 @@ Pon a prueba tu conocimiento geográfico con 10 preguntas aleatorias, contrarrel
 **Country Quiz** es una aplicación web interactiva basada en el reto [Country Quiz de DevChallenges](https://devchallenges.io/challenge/country-quizz). El usuario responde 10 preguntas sobre capitales del mundo con un temporizador regresivo de 15 segundos por pregunta. La aplicación guarda automáticamente el mejor puntaje histórico y soporta modo oscuro/claro nativo.
 
 > Proyecto desarrollado como parte del **Taller de Competencias Frontend**  
-> Universidad del Putumayo · 2025
+> Universidad del Putumayo · 2026
 
 ---
 
@@ -134,7 +134,7 @@ DevChallengue--Quiz-App/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/DevChallengue--Quiz-App.git
+git clone https://github.com/JDav117/DevChallengue--Quiz-App.git
 cd DevChallengue--Quiz-App
 
 # 2. Instalar dependencias
@@ -189,12 +189,14 @@ Tests       16 passed
 
 ## 🤝 Flujo de trabajo colaborativo
 
-El desarrollo se organizó en dos ramas de trabajo con Pull Requests revisados antes del merge:
+El desarrollo se organizó en **4 ramas de trabajo** con Pull Requests revisados antes de cada merge a `main`:
 
 ```
 main
-├── feature/student-a   →  Setup, Tailwind, Rutas, API, Componentes base
-└── feature/student-b   →  Timer, High Score, Audio, Tests, ESLint + Netlify
+├── feature/primeros-ajustes    →  Setup, Tailwind, React Router, estructura de páginas
+├── feature/integracion-api     →  Tipos TS, REST Countries API, componentes base, audio
+├── feature/funcionalidades     →  Timer, Dark Mode, High Score, README
+└── feature/testing-y-deploy    →  Pruebas unitarias, ESLint, Netlify CI/CD
 ```
 
 Cada PR recibió una revisión técnica con comentario aprobatorio antes de hacer merge a `main`.
@@ -218,7 +220,7 @@ La configuración está en `netlify.toml`:
   publish = "dist"
 ```
 
-> 🔗 **Demo en vivo:** [Ver aplicación](https://TU-SUBDOMINIO.netlify.app)
+> 🔗 **Demo en vivo:** [https://quiz-app-capital-of-the-world.netlify.app](https://quiz-app-capital-of-the-world.netlify.app/)
 
 ---
 
@@ -236,10 +238,10 @@ GET https://restcountries.com/v3.1/all?fields=name,capital,flags,region,cca2
 
 ## 👤 Autor
 
-**David** — Estudiante de Tecnología en Sistemas  
-Universidad del Putumayo ·
+**Jhoan David Ortega Ramos** — Estudiante de Tecnología en Sistemas  
+Universidad del Putumayo · 2026
 
-[![GitHub](https://img.shields.io/badge/GitHub-Jhoan-181717?style=flat-square&logo=github)](https://github.com/JDav117)
+[![GitHub](https://img.shields.io/badge/GitHub-JDav117-181717?style=flat-square&logo=github)](https://github.com/JDav117)
 
 ---
 
